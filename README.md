@@ -12,10 +12,10 @@ This is an app based project that runs in the console. Users can manually enter 
   
 
 ##### Attributes:
-  -commands: A list of user-inputted commands
-  -weather: The weather outside for the day. Can handle the cases for HOT or COLD 
-  -finalResp: The output of the commands entered
-  -visited: A list of steps that the user has already completed.
+  - commands: A list of user-inputted commands
+  - weather: The weather outside for the day. Can handle the cases for HOT or COLD 
+  - finalResp: The output of the commands entered
+  - visited: A list of steps that the user has already completed.
   
 ##### Methods:
   - ParseInput(string input):
@@ -26,4 +26,12 @@ This is an app based project that runs in the console. Users can manually enter 
 
 ## Unit Testing:
 I wrote unit tests that cover all of the example edge cases to consider in the prompt. 
+
+## Manual Testing:
+To test manually, build and run the program. A console will appear where you can enter in a command or enter quit to exit the program. After each command is entered, the program will display the string output response.
+
+## Notes:
+I chose to separate the user interface (Program class) from the business logic and input parsing (Person class). The Person class does both the string parsing and the business logic because they seemed very related. Ideally they would be separated but for this project I kept them in the same class, in different methods.
+
+My background is primarily in Python, so I used Microsoft's online documentation to help refresh my memory on C# syntax/styling.
 
