@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocusignProject", "DocusignProject\DocusignProject.csproj", "{F0A611BD-4660-407A-AE55-DA16F6B12A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocusignProjectTests", "DocusignProjectTests\DocusignProjectTests.csproj", "{C530FE95-3705-422B-8A99-5E3DD5B1A4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A611BD-4660-407A-AE55-DA16F6B12A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A611BD-4660-407A-AE55-DA16F6B12A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A611BD-4660-407A-AE55-DA16F6B12A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A611BD-4660-407A-AE55-DA16F6B12A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C530FE95-3705-422B-8A99-5E3DD5B1A4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C530FE95-3705-422B-8A99-5E3DD5B1A4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C530FE95-3705-422B-8A99-5E3DD5B1A4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C530FE95-3705-422B-8A99-5E3DD5B1A4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
