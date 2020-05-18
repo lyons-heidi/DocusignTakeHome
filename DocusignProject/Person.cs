@@ -32,18 +32,11 @@ namespace DocusignProject
 
             List<string> steps = commandstr.Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-            System.Console.WriteLine(weatherStr);
-
-            foreach (var step in steps)
-            {
-                System.Console.WriteLine($"<{step}>");
-            }
-
             // save weather and array of steps
             this.weather = weatherStr;
             this.commands = steps;
-
         }
+
         public string ValidateData()
         {
             string[,] hotColdResponses = new string[8, 2]{

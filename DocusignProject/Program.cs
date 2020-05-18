@@ -7,8 +7,20 @@ namespace DocusignProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Person p = new Person("COLD 8, 6, 3, 4, 2, 5, 1, 7");
+            while (true)
+            {
+                Console.WriteLine("Good morning! Enter in a command to get dressed, or quit to exit: ");
+                string userInput = Console.ReadLine();
+
+                if (userInput == "quit")
+                {
+                    break;
+                }
+
+                Person p = new Person(userInput);
+                Console.WriteLine(p.ValidateData());
+            }
+            Console.WriteLine("done.");
         }
     }
 }

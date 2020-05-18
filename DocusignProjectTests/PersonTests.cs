@@ -5,7 +5,7 @@ using System;
 namespace DocusignProjectTests
 {
     [TestClass]
-    public class UnitTest1
+    public class PersonTests
     {
         [TestMethod]
         public void TestValidateData_WithValidCold_ReturnsCorrectStr()
