@@ -20,7 +20,14 @@ namespace DocusignProject
             ParseInput(strInput);
         }
 
-        private void ParseInput(string strInput)
+        public Person()
+        {
+            this.commands = new List<string>();
+            this.visited = new List<string>();
+            this.finalResp = "";
+        }
+
+        public void ParseInput(string strInput)
         {
             // strInput: "HOT 1, 2, 3, 4, 5"
 
@@ -37,6 +44,15 @@ namespace DocusignProject
             this.commands = steps;
         }
 
+        // Clear commands, weather, visite, and final response for a new day
+        public void RestartDay()
+        {
+            this.commands = new List<string>();
+            this.visited = new List<string>();
+            this.finalResp = "";
+
+
+        }
         public string ValidateData()
         {
             string[,] hotColdResponses = new string[8, 2]{
